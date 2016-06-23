@@ -7,7 +7,8 @@ App::uses('AppController', 'Controller');
  * @property PaginatorComponent $Paginator
  */
 class DepartmentsController extends AppController {
-
+var $theme = 'Admin';
+var $layout = 'index';
 /**
  * Components
  *
